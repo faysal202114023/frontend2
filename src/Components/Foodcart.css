@@ -1,0 +1,51 @@
+/* src/App.css */
+.foods {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url("path/to/your/FODDDD.jpg"); /* Replace with the correct relative path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.app-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.food-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.food-item {
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart {
+  width: 300px;
+  margin-left: auto;
+  margin-right: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.confirm-button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+/* Add more custom styles as needed */

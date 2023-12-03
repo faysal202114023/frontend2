@@ -1,0 +1,59 @@
+/* SeatSelection.css (or your custom CSS file) */
+.seat-selection {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* Create a grid with 10 columns */
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.seat-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #0074cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,57 @@
+/* MedicalReporter.css */
+
+.medical-reporter-container {
+    position: relative;
+  }
+  
+  .navbar {
+    /* Your navbar styles */
+  }
+  
+  .background-image {
+    /* Your background image styles */
+  }
+  
+  .medical-report-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Make the form take up the full height of the viewport */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 300px auto 0;
+  }
+  
+  .medical-report-form h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .medical-report-form label {
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .medical-report-form input,
+  .medical-report-form button {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .medical-report-form button {
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .medical-report-form button:hover {
+    background-color: #2980b9;
+  }
+  

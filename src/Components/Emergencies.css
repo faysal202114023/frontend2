@@ -1,0 +1,57 @@
+/* Emergencies.css */
+
+.emergencies-container {
+    position: relative;
+  }
+  
+  .navbar {
+    /* Your navbar styles */
+  }
+  
+  .background-image {
+    /* Your background image styles */
+  }
+  
+  .emergency-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Make the form take up the full height of the viewport */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 300px auto 0; /* Center the form horizontally with a gap of 80px from the navbar */
+  }
+  .emergency-form h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .emergency-form label {
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .emergency-form select,
+  .emergency-form button {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .emergency-form button {
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .emergency-form button:hover {
+    background-color: #2980b9;
+  }
+  
